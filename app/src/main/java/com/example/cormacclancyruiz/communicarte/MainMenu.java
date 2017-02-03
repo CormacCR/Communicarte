@@ -36,7 +36,7 @@ public class MainMenu extends AppCompatActivity {
         });
 
     }
-
+        //
     protected void createSession (View view){
         Intent createSessionPage = new Intent(this,CreateSession.class);
         startActivity(createSessionPage);
