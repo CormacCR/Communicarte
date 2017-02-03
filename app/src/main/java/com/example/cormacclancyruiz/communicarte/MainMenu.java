@@ -23,6 +23,18 @@ public class MainMenu extends AppCompatActivity {
         createSession = (Button) findViewById(R.id.create_session);
         joinSession = (Button) findViewById(R.id.join_session);
 
+        createSession.setOnClickListener(new View.OnClickListener(){
+              public void onClick(View v){
+                  createSession(v);
+              }
+        });
+
+        joinSession.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v1){
+                joinSession(v1);
+            }
+        });
+
     }
 
     protected void createSession (View view){
