@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main_menu"
     android:layout_width="match_parent"
@@ -8,24 +9,40 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
     tools:context="com.example.cormacclancyruiz.communicarte.MainMenu">
 
     <Button
-        android:text="Create Session"
-        android:layout_width="wrap_content"
+        android:text="Join Session"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="57dp"
-        android:id="@+id/create_session" />
+        android:id="@+id/join_session"
+        android:layout_marginBottom="74dp"
+        android:background = "#967685"
+        android:textColor = "@android:color/white"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Join Session"
+        android:text="Create Session"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_session"
+        style="@style/Widget.AppCompat.Button"
+        android:background = "#967685"
+        android:textColor = "@android:color/white"
+        android:layout_above="@+id/join_session"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp" />
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/create_session"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="38dp"
-        android:id="@+id/join_session" />
+        app:srcCompat="@drawable/logo1"
+        android:layout_marginTop="17dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
