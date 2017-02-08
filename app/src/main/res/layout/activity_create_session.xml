@@ -37,15 +37,16 @@
         android:id="@+id/textView2"
         android:text="Session Key=" />
 
-    <EditText
+    <TextView
+        android:text="TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:ems="10"
-        android:layout_below="@+id/generate_key"
-        android:layout_toEndOf="@+id/textView2"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="27dp"
-        android:id="@+id/session_keyID" />
+        android:id="@+id/session_keyID"
+        android:layout_marginEnd="36dp"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignEnd="@+id/generate_key"
+        android:fontFamily="sans-serif"
+        android:typeface="monospace" />
 
 </RelativeLayout>

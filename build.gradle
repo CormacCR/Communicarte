@@ -15,7 +15,10 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        /*
+        old import command needed for chateau, not needed for sinch
         maven { url "https://jitpack.io" }
+         */
     }
 }
 
