@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cormacclancyruiz.communicarte.UserQuestion">
+
+    <TextView
+        android:text="Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:textColor="#34148c"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="#e3dbff"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/editText"
+        android:hint="Insert Text Here....." />
+
+    <Switch
+        android:text="Enable Microphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/switch1"
+        android:textColor="#34148c"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/button2"
+        android:backgroundTint="#34148c"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/switch1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

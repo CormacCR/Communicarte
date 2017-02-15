@@ -10,4 +10,44 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.cormacclancyruiz.communicarte.JoinSession">
 
+    <TextView
+        android:text="Enter Code"
+        android:textColor="#34148c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:fontFamily="serif"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:id="@+id/button"
+        android:fontFamily="serif"
+        android:textStyle="normal|bold"
+        style="@style/Widget.AppCompat.Button"
+        android:backgroundTint="#34148c"
+        android:elevation="0dp"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:background="#e3dbff"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
