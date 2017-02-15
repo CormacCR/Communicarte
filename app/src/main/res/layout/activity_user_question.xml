@@ -34,7 +34,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:id="@+id/editText"
-        android:hint="Insert Text Here....." />
+        android:hint="Insert Your Text Here.." />
 
     <Switch
         android:text="Enable Microphone"
