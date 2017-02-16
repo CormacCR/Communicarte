@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
         android:id="@+id/button2"
-        android:backgroundTint="#34148c"
+        android:background="@drawable/mybutton"
         android:textStyle="normal|bold"
         android:layout_below="@+id/switch1"
         android:layout_centerHorizontal="true" />

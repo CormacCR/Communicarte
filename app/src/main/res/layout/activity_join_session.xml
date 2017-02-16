@@ -34,7 +34,7 @@
         android:fontFamily="serif"
         android:textStyle="normal|bold"
         style="@style/Widget.AppCompat.Button"
-        android:backgroundTint="#34148c"
+        android:background="@drawable/mybutton"
         android:elevation="0dp"
         android:layout_below="@+id/editText3"
         android:layout_centerHorizontal="true" />
