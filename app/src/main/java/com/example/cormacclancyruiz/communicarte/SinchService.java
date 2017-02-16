@@ -2,6 +2,7 @@ package com.example.cormacclancyruiz.communicarte;
 
 /**
  * Created by Liam on 08/02/2017.
+ * Obsolete as of 14/2/17
  */
 
 import android.app.Service;
